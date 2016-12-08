@@ -1,21 +1,32 @@
-/* styles.css */
+/*
+STYLES.CSS
 
-html, body {
-	height: 100%;
+Course:  Bootstrap 4 Quick Start
+Author:  Brad Hussey
+Website: bradhussey.ca
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* cover */
 
 #cover {
-	background: #222 url('../img/stars.jpg') center center no-repeat;
-	background-size: cover;
-	text-align: center;
-	color: white;
-	height: 100%;
-	display: flex;
-	align-items: center;
+    background: #222 url('../img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 #cover-caption {
-	width: 100%;
+    width: 100%;
 }
