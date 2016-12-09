@@ -6,49 +6,21 @@ Author:  Brad Hussey
 Website: codecollege.ca
 */
 
-html,
-body {
-    height: 100%;
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c;
 }
 
-img {
-    max-width: 100%;
+.navbar-collapse h4 {
+  color: #818a91;
 }
 
-/* cover */
-
-#cover {
-    background: #222 url('../img/stars.jpg') center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
+.navbar-collapse .text-muted {
+  color: #818a91;
 }
 
-#cover-caption {
-    width: 100%;
-}
-
-.section-content {
-    padding: 5rem 0;
-}
-
-#about {
-    background: url('../img/girlincar.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-.about-text {
-    background: rgba(0,0,0,0.8);
-    color: white;
-    padding: 1.875rem;
-}
-
-#footer-main {
-    background: #222;
-    color: white;
-    font-size: 0.8rem;
-    padding: 2.5rem 0;
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem;
 }
