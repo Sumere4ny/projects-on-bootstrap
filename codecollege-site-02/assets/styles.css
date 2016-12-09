@@ -30,7 +30,7 @@ Website: codecollege.ca
   padding-bottom: 6rem;
   margin-bottom: 0;
   background-color: #fff;
-  background-image: url('img/banjo.jpg');
+  background-image: url('../img/banjo.jpg');
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
