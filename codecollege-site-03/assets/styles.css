@@ -71,3 +71,16 @@ img {
     padding: 8rem 0;
     overflow: hidden;
 }
+
+.feature-content img {
+    margin-bottom: -8rem;
+}
+
+.feature-dark {
+    background: #262F36;
+    color: white;
+}
+
+.feature-dark h2 {
+    color: white;
+}
